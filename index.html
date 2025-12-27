@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="timeline.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  <script src="index.js"></script>
+  <!-- <link rel="stylesheet" href="book.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg custom-nav ">
+    <div class="container ">
+      <!-- Logo -->
+      <a class="navbar-brand logo" href="#">Yuvraj</a>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu -->
+      <div class="container ">
+        <div class="collapse navbar-collapse nav-div " id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center">
+
+            <li class="nav-item js-scroll-trigger">
+              <a class="nav-link nav-pill active" href="#">Home</a>
+            </li>
+
+            <li class="nav-item js-scroll-trigger">
+              <a class="nav-link nav-pill" href="#about">About</a>
+            </li>
+
+            <li class="nav-item js-scroll-trigger">
+              <a class="nav-link nav-pill" href="#education">Education</a>
+            </li>
+
+            <li class="nav-item js-scroll-trigger">
+              <a class="nav-link nav-pill" href="#skill">Skills</a>
+            </li>
+
+            <li class="nav-item js-scroll-trigger">
+              <a class="nav-link nav-pill" href="#contact">Contact</a>
+            </li>
+
+            <!-- Resume Button -->
+            <li class="nav-item ms-2 js-scroll-trigger">
+              <a class="nav-link resume-btn" href="#">
+                <i class="fa-solid fa-download"></i>Download Resume
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+
+  <!-- Jquery code to trigger collapse menu-bar on small screens -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script type="text/javascript">
+    $('.js-scroll-trigger').click(function () {
+      $('.navbar-collapse').collapse('hide');
+    });
+  </script>
+
+  <!-- Home page -->
+  <div class="container-fluid" id="about">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-6 my-img">
+        <!-- <div class="banner"> -->
+        <img src="boy1.png" alt="yuvi" class="img-fluid pop-out">
+        <!-- </div> -->
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-6 mt-md-0 mt-lg-0 mt-5">
+        <h1 class="ms-3 name-sentence">Hi, I'm </h1>
+        <h1 class="ms-3 me-2 yuvraj">Yuvraj</h1>
+
+        <h3 class="ms-5 mt-5 fs-2 yuvraj-quote">A Passinote Learner and Explorer</h3>
+
+        <a href="#" class="header-icon-link instagram-icon"> <i
+            class="fa-brands fa-instagram contact-header-icons ms-5 mt-5"></i> </a>
+        <a href="#" class="header-icon-link github-icon"> <i class="fa-brands fa-github contact-header-icons mt-5"></i>
+        </a>
+        <a href="#" class="header-icon-link linkedin-icon"> <i
+            class="fa-brands fa-linkedin contact-header-icons mt-5"></i> </a>
+        <a href="#" class="header-icon-link x-icon"> <i class="fa-brands fa-x-twitter contact-header-icons mt-5"></i>
+        </a>
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <hr style="width: 80%; margin-left: auto; margin-right: auto; height: 5px; background-color: black;">
+
+  <!-- About section -->
+  <div class="d-flex justify-content-center">
+    <h4 class="fs-1 about-me-heading " id="about">About Me</h4>
+  </div>
+  <div class="container-fluid">
+    <div class="row ">
+
+
+      <div class="col-sm-12 col-md-6 col-lg-6 ">
+        <div class="d-flex justify-content-center mt-5">
+          <img src="yuvraj-professional-ig.png" alt="" class="img-fluid about-me-yuvraj">
+
+        </div>
+        <div class="d-flex justify-content-center ">
+          <h4 class="mt-5 fs-1">Yuvraj luva</h4>
+
+        </div>
+        <div class="d-flex justify-content-center">
+
+          <h5>Wev Developer & Programmar</h5>
+        </div>
+
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 ">
+        <div class="mt-5 d-flex justify-content-center about-me-div">
+
+          <p class="fs-5 mt-5 about-me-para me-5 p-3">
+            I am Yuvraj, and I am currently pursuing BCA from Star Infotech College. I have a strong interest in learning new technologies and improving my problem-solving skills. I enjoy building projects, exploring programming concepts, and continuously working on personal growth and self-development. I believe in consistent learning and practical application of knowledge. I am always eager to take on new challenges and grow professionally.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <hr style="width: 80%; margin-left: auto; margin-right: auto; height: 5px; background-color: rgb(0, 0, 0);">
+
+  <!-- more about me seciton -->
+  <div class="d-flex justify-content-center">
+    <h4 class="fs-1 more-about-me-heading " id="about">More About Me</h4>
+
+  </div>
+  <div class="d-flex justify-content-center mt-4">
+    <h5 class="fs-4 hobbie-heading p-2">My Hobbies</h5>
+  </div>
+
+  <div class="container-fluid p-5">
+    <div class="row">
+      <!-- first card -->
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mt-5">
+        <div class="card hobby-card h-100 ">
+
+
+          <div class="hobby-img-div position-relative">
+            <img src="photgrpahy.jfif" class="card-img-top" alt="Hobby">
+
+
+            <div class="d-flex align-items-center card-para-div ">
+              <p class="text-white small ms-2">
+                Capturing moments through light, perspective, and emotion.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="card-body-about d-flex align-items-center justify-content-center">
+            <h5 class="card-title mb-0 text-center">
+              Photography
+            </h5>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- first avatar  -->
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mt-5">
+        <p class="fs-5 hobbie-side-para">
+          I enjoy capturing meaningful moments, landscapes, and emotions through photography, focusing on composition, lighting, and storytelling in every frame.
+        </p>
+        <!-- <img src="photography-avatar.png" alt="" class="img-fluid"> -->
+      </div>
+
+      <!-- second card -->
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mt-5">
+        <div class="card hobby-card h-100 ">
+
+
+          <div class="hobby-img-div position-relative">
+            <img src="gaming.jfif" class="card-img-top" alt="Hobby">
+
+
+            <div class=" d-flex align-items-center card-para-div">
+              <p class="text-white small ms-2">
+                Exploring virtual worlds while sharpening focus and strategic thinking.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="card-body-about d-flex align-items-center justify-content-center">
+            <h5 class="card-title mb-0 text-center">
+              Online Gaming
+            </h5>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- second avatar  -->
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mt-5">
+        <p class="fs-5 hobbie-side-para">I enjoy online gaming as it enhances strategic thinking, teamwork, decision-making skills, and provides an engaging way to relax and compete.</p>
+        <!-- <img src="photography-avatar.png" alt="" class="img-fluid"> -->
+      </div>
+
+      <!-- third avatar  -->
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mt-5">
+        <p class="fs-5 hobbie-side-para">I enjoy coding to solve problems, build practical applications, and continuously improve logical thinking through learning, experimentation, and real-world practice.</p>
+        <!-- <img src="photography-avatar.png" alt="" class="img-fluid"> -->
+      </div>
+
+      <!-- third card -->
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mt-5">
+        <div class="card hobby-card h-100">
+
+
+          <div class="hobby-img-div position-relative">
+            <img src="coding.jfif" class="card-img-top" alt="Hobby">
+
+
+            <div class="d-flex align-items-center card-para-div">
+              <p class="text-white small ms-2">
+                Turning ideas into functional solutions through logic and creativity.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="card-body-about d-flex align-items-center justify-content-center">
+            <h5 class="card-title mb-0 text-center">
+              Coding
+            </h5>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- fourth avatar  -->
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mt-5">
+        <p class="fs-5 hobbie-side-para">I practice journal writing to reflect on daily experiences, organize thoughts, track personal growth, and improve clarity, focus, and self-awareness.</p>
+        <!-- <img src="photography-avatar.png" alt="" class="img-fluid"> -->
+      </div>
+
+      <!-- fourth card -->
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mt-5">
+        <div class="card hobby-card h-100">
+
+          <div class="hobby-img-div position-relative">
+            <img src="writing.jfif" class="card-img-top" alt="Hobby">
+
+
+            <div class="d-flex align-items-center card-para-div">
+              <p class="text-white small ms-2">
+                Expressing thoughts, reflections, and ideas through consistent
+              </p>
+            </div>
+          </div>
+
+
+          <div class="card-body-about d-flex align-items-center justify-content-center">
+            <h5 class="card-title mb-0 text-center">
+              Journal Writing
+            </h5>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <hr style="width: 80%; margin-left: auto; margin-right: auto; height: 5px; background-color: rgb(0, 0, 0);">
+
+  <!-- Education seciton name as more about me  -->
+
+
+  <div class="d-flex justify-content-center" id="education">
+    <h1 class="fs-1 education-heading">Education Section</h1>
+  </div>
+  <div class="timeline">
+
+    <div class="contanier-div left-contanier-div">
+      <img src="star-infotech.JPG" alt="img" class="img-fluid">
+      <div class="text-box">
+        <h2>Graduation</h2>
+        <h4 class="text-primary">Star Infotech College</h4>
+        <p>
+          I am currently pursuing my graduation in BCA from Star Infotech College Ajmer, where I am developing a strong academic foundation while gaining practical exposure to core subjects, teamwork, and problem-solving skills essential for my professional growth.
+        </p>
+        <!-- <a href="https://share.google/ArbV6Fa2KmKmNvpfN" type="btn btn-primary"> View More</a> -->
+        <span class="left-contanier-div-arrow"></span>
+      </div>
+    </div>
+
+    <div class="contanier-div right-contanier">
+      <img src="gove-scholl2.png" alt="img" class="img-fluid">
+      <div class="text-box">
+        <h2>High School Education</h2>
+        <h4 class="text-primary">Govt. Sr. Sec. School</h4>
+        <p>
+          I have done my high schooling from Government senior secondary school Pushkar with Science Maths subject.
+          I scored 75 % in 12<sup>th</sup> in Board
+        </p>
+        <span class="right-contanier-div-arrow"></span>
+      </div>
+    </div>
+    <div class="contanier-div left-contanier-div">
+      <img src="tms-school.png" alt="img" class="img-fluid">
+      <div class="text-box">
+        <h2>Secaondary Education</h2>
+        <h4 class="text-primary">Taramani School Pushkar</h4>
+        <p>
+          I have done my secondary education from Taramani senior secondary school Pushkar.
+          I scored 78 % in 10<sup>th</sup> in Board
+        </p>
+        <span class="left-contanier-div-arrow"></span>
+      </div>
+    </div>
+
+ 
+  </div>
+  <hr style="width: 80%; margin-left: auto; margin-right: auto; height: 5px; background-color: black;">
+
+  <!-- skills section -->
+  <div class="d-flex justify-content-center">
+    <h4 class="fs-1 skills-heading" id="skill">Skills</h4>
+
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- first skill card -->
+      <div class="col-sm-12 col-md-6 col-lg-3 mt-5 p-5">
+        <div class="card skill-card">
+
+          <div class="img-div">
+            <img src="programing.jpg" alt="imgaes" class="img-fluid card-img-top skill-card-img">
+          </div>
+          <div class="card-body">
+            <div class="card-heading">
+              <h1 class="fs-3">Programming</h1>
+            </div>
+            <div class="skill-card-para">
+              <p  class="fs-6">
+                Writing efficient code, solving problems logically, and building reliable software solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- second card -->
+      <div class="col-sm-12 col-md-6 col-lg-3 mt-5 p-5">
+        <div class="card skill-card">
+
+          <div class="img-div">
+            <img src="web-dev.jpg" alt="imgaes" class="img-fluid card-img-top skill-card-img">
+          </div>
+          <div class="card-body">
+            <div class="card-heading">
+              <h1 class="fs-3">Web Developement</h1>
+            </div>
+            <div class="skill-card-para">
+              <p class="fs-6">
+                Designing responsive websites using modern technologies, clean layouts, and user-focused interfaces.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third card -->
+      <div class="col-sm-12 col-md-6 col-lg-3 mt-5 p-5">
+        <div class="card skill-card">
+
+          <div class="img-div">
+            <img src="skill-video-creator.jpg" alt="imgaes" class="img-fluid card-img-top skill-card-img">
+          </div>
+          <div class="card-body">
+            <div class="card-heading">
+              <h1 class="fs-3">Content Creation</h1>
+            </div>
+            <div class="skill-card-para">
+              <p  class="fs-6">
+                Creating engaging, informative digital content with clarity, consistency, and creative storytelling.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- fourth card -->
+      <div class="col-sm-12 col-md-6 col-lg-3 mt-5 p-5">
+        <div class="card skill-card">
+
+          <div class="img-div">
+            <img src="public speaking.jfif" alt="imgaes" class="img-fluid card-img-top skill-card-img">
+          </div>
+          <div class="card-body">
+            <div class="card-heading">
+              <h1 class="fs-3">Public Speaking</h1>
+            </div>
+            <div class="skill-card-para">
+              <p class="fs-6">
+                Communicating ideas confidently, clearly, and effectively before audiences and diverse groups.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- footer  -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Contact Form -->
+    <div class="footer-section">
+      <h3>Contact Me</h3>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Comment" required></textarea>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+
+    <!-- Social & Email -->
+    <div class="footer-section">
+      <h3>Connect</h3>
+      <p class="fs-6"> <a href="luvayuvraj@gmail.com" class="email-id">luvayuvraj@gmail.com</a></p>
+
+      <div class="footer-icons">
+      <a href="#" class="footer-icon-link instagram-icon"> <i
+            class="fa-brands fa-instagram contact-header-icons ms-5 mt-5"></i> </a>
+        <a href="#" class="footer-icon-link github-icon"> <i class="fa-brands fa-github contact-header-icons mt-5"></i>
+        </a>
+        <a href="#" class="footer-icon-link linkedin-icon"> <i
+            class="fa-brands fa-linkedin contact-header-icons mt-5"></i> </a>
+        <a href="#" class="footer-icon-link x-icon"> <i class="fa-brands fa-x-twitter contact-header-icons mt-5"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom Text -->
+  <div class="footer-bottom">
+    <p>Made by Yuvraj with <i class="fa-solid fa-heart heart-icon"></i></p>
+  </div>
+</footer>
+
+
+</body>
+</html>
